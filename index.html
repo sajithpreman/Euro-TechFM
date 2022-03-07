@@ -61,8 +61,8 @@
                               <li class="active"> <a href="index.html">Home</a> </li>
                               <li> <a href="#about">About</a> </li>
                               <li> <a href="#service"> Services</a> </li>
+                              <li> <a href="#testimonial">Contact</a> </li>
                               <li> <a href="#download"> Help</a> </li>
-                              <li> <a href="#testimonial">Contact us</a> </li>
 
                            </ul>
                         </nav>
@@ -298,7 +298,7 @@
                         <img src="attachments/11.jpg" class="zoom img-fluid " alt="">
                      </a>
                      <span class="hoverle">
-                        <a href="attachments/11.jpg" class="fancybox" rel="ligthbox">Garden Servies </a>
+                        <a href="attachments/11.jpg" class="fancybox" rel="ligthbox">Garden Services </a>
                      </span>
                   </figure>
                </div>
@@ -310,7 +310,7 @@
                         <img src="attachments/12.jpg" class="zoom img-fluid " alt="">
                      </a>
                      <span class="hoverle">
-                        <a href="attachments/12.jpg" class="fancybox" rel="ligthbox">LabourSupply</a>
+                        <a href="attachments/12.jpg" class="fancybox" rel="ligthbox">Labour Supply</a>
                      </span>
                   </figure>
                </div>
@@ -392,7 +392,8 @@
                         <div class="container">
                            <div class="carousel-caption relat">
                               <h3>On phone</h3>
-                              <span><i class="fa fa-quote-left"></i> ( 009875 )<i class="fa fa-quote-right"></i></span>
+                              <span><i class="fa fa-quote-left"></i> ( 00971528613042 )<i
+                                    class="fa fa-quote-right"></i></span>
                               <p>To be the most trusted FM company in the market with high quality of skilled works.
                               </p>
                            </div>
@@ -416,19 +417,19 @@
                <div class="col-lg-2 col-md-6 col-sm-12 width">
                   <div class="address">
                      <h3>Address</h3>
-                     <i><img src="icon/3.png">Locations</i>
+                     <i><img src="icon/3.png">Falaj Hessa AlAin UAE</i>
                   </div>
                </div>
-               <div class="col-lg-2 col-md-6 col-sm-12 width">
+               <!--- <div class="col-lg-2 col-md-6 col-sm-12 width">
                   <div class="address">
                      <h3>Menus</h3>
                      <i><img src="icon/2.png">Locations</i>
                   </div>
-               </div>
+               </div>-->
                <div class="col-lg-2 col-md-6 col-sm-12 width">
                   <div class="address">
-                     <h3>Useful Linkes</h3>
-                     <i><img src="icon/1.png">Locations</i>
+                     <h3>Links</h3>
+                     <i><img src="icon/1.png"></i>
                   </div>
                </div>
                <div class="col-lg-2 col-md-6 col-sm-12 width">
@@ -437,8 +438,8 @@
                      <ul class="contant_icon">
                         <li><a href="https://www.facebook.com/Eurotech-108418158455476/"><img src="icon/fb.png"
                                  alt="icon" /></a></li>
-                        <li><a href="#"><img src="icon/tw.png" alt="icon" /></a></li>
-                        <li><a href="#"><img src="icon/lin (2).png" alt="icon" /></a></li>
+                        <!--  <li><a href=""><img src="icon/tw.png" alt="icon" /></a></li>
+                        <li><a href=""><img src="icon/lin (2).png" alt="icon" /></a></li>-->
                         <li><a href="https://instagram.com/eurotechfm?utm_medium=copy_link"><img
                                  src="icon/instagram.png" alt="icon" /></a></li>
                      </ul>
@@ -500,6 +501,30 @@
      //    })
     //  })
    </script>
+   <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+         apiKey: "AIzaSyD_LPVGNok7NSnDCzzNcC5Zuouk6zXUP0c",
+         authDomain: "eurotech-892a6.firebaseapp.com",
+         projectId: "eurotech-892a6",
+         storageBucket: "eurotech-892a6.appspot.com",
+         messagingSenderId: "423770738912",
+         appId: "1:423770738912:web:d92ba0bc9a08e9656a0085",
+         measurementId: "G-HR21BVJ6V1"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+   </script>
 </body>
+
 
 </html>
